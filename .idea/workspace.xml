@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4a2642d-2c28-4f89-bece-30f060a72fb1" name="Default Changelist" comment="" />
+    <list default="true" id="b4a2642d-2c28-4f89-bece-30f060a72fb1" name="Default Changelist" comment="首次提交">
+      <change beforePath="$PROJECT_DIR$/cloud-client/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-feign/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-feign/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-ribbon/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-ribbon/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zuul/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -223,7 +232,19 @@
       <option name="presentableId" value="Default" />
       <updated>1592271401054</updated>
     </task>
+    <task id="LOCAL-00001" summary="首次提交">
+      <created>1592365562664</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592365562664</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="首次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="首次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="340" y="277" key="#Project_Structure" timestamp="1592290512053">
@@ -254,10 +275,10 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="590" y="449" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1592286244678" />
-    <state x="639" y="457" key="FileChooserDialogImpl" timestamp="1592365459529">
+    <state x="639" y="457" key="FileChooserDialogImpl" timestamp="1592365707471">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="639" y="457" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1592365459529" />
+    <state x="639" y="457" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1592365707471" />
     <state width="1674" height="399" key="GridCell.Tab.0.bottom" timestamp="1592365404267">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
