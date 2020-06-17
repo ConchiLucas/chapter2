@@ -1,0 +1,23 @@
+server:
+  port: 9002
+
+spring:
+  basic:
+    enabled: true
+  application:
+    name: cloud-client
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
+  profiles:
+    active: @activatedProperties@
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: mybatis/**/*Mapper.xml
+  typeAliasesPackage: com.weihu.**.domain

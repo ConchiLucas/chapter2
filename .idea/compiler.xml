@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-feign" />
+        <module name="cloud-zuul" />
+        <module name="cloud-config-server" />
+        <module name="cloud-config-client" />
+        <module name="cloud-eureka-server" />
+        <module name="cloud-server" />
+        <module name="cloud-client" />
+      </profile>
+      <profile name="Annotation profile for cloud-ribon" enabled="true">
+        <sourceOutputDir name="../cloud-ribon/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../cloud-ribon/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-ribbon" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="chapter2" target="1.8" />
+      <module name="cloud-client" target="1.8" />
+      <module name="cloud-config-client" target="1.8" />
+      <module name="cloud-config-server" target="1.8" />
+      <module name="cloud-eureka-server" target="1.8" />
+      <module name="cloud-feign" target="1.8" />
+      <module name="cloud-ribbon" target="1.8" />
+      <module name="cloud-server" target="1.8" />
+      <module name="cloud-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-client" options="-parameters -extdirs G:\springcloud-1\chapter2\cloud-client/src/main/lib" />
+      <module name="cloud-config-client" options="-parameters" />
+      <module name="cloud-config-server" options="-parameters" />
+      <module name="cloud-eureka-server" options="-parameters" />
+      <module name="cloud-feign" options="-parameters" />
+      <module name="cloud-ribbon" options="-parameters" />
+      <module name="cloud-server" options="-parameters" />
+      <module name="cloud-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
